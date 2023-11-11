@@ -1,0 +1,2 @@
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Action Center\Flags" /v 46337 /t REG_DWORD /d 1 /f
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v GameDVR_DSEBehavior /t REG_DWORD /d 2 /f

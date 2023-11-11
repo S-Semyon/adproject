@@ -1,0 +1,3 @@
+from .template import Template
+
+class Template_Timer(Template): ...
