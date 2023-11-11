@@ -52,3 +52,8 @@ FileNotFoundError: [Errno 2] No such file or directory: 'settings.json'
 2023-11-11 11:57:17,259 INFO [Settings] [load] successfully loaded
 2023-11-11 11:57:17,260 INFO Иницилизация [CLASS] UserFlow
 2023-11-11 11:57:17,260 INFO === (END PROGRAM) ===
+2023-11-11 14:16:59,616 INFO === (START PROGRAM) ===
+2023-11-11 14:16:59,628 INFO [Settings] [save] successfully saved
+2023-11-11 14:16:59,628 INFO [Settings] [load] successfully loaded
+2023-11-11 14:16:59,628 INFO Иницилизация [CLASS] UserFlow
+2023-11-11 14:16:59,628 INFO === (END PROGRAM) ===
