@@ -1,0 +1,16 @@
+2023-11-11 11:08:33,298 INFO === (START PROGRAM) ===
+2023-11-11 11:08:33,298 INFO Иницилизация [CLASS] UserFlow
+2023-11-11 11:08:33,298 ERROR {Exception()}
+2023-11-11 11:09:35,657 INFO === (START PROGRAM) ===
+2023-11-11 11:09:35,657 INFO Иницилизация [CLASS] UserFlow
+2023-11-11 11:09:35,657 ERROR 
+2023-11-11 11:10:32,630 INFO === (START PROGRAM) ===
+2023-11-11 11:10:32,630 INFO Иницилизация [CLASS] UserFlow
+2023-11-11 11:10:32,630 ERROR Exception
+Traceback (most recent call last):
+  File "/home/semyon/адский проект/main.py", line 6, in <module>
+    raise Exception
+Exception
+2023-11-11 11:12:35,760 INFO === (START PROGRAM) ===
+2023-11-11 11:12:35,760 INFO Иницилизация [CLASS] UserFlow
+2023-11-11 11:12:35,760 INFO === (END PROGRAM) ===
