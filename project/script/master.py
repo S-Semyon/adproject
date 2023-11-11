@@ -10,7 +10,7 @@ class Master_Creating_Scripts:
 
     def create_script(self, 
                       name_script: str,
-                      startup_programs: list[tuple[str, str]] = [],
+                      startup_programs: list[tuple[str, list]] = [],
                       template: list = []
                       ) -> None:
         """Мастер создания сценариев"""

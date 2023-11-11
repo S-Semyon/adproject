@@ -57,3 +57,113 @@ FileNotFoundError: [Errno 2] No such file or directory: 'settings.json'
 2023-11-11 14:16:59,628 INFO [Settings] [load] successfully loaded
 2023-11-11 14:16:59,628 INFO Иницилизация [CLASS] UserFlow
 2023-11-11 14:16:59,628 INFO === (END PROGRAM) ===
+2023-11-11 16:32:28,310 INFO === (START PROGRAM) ===
+2023-11-11 16:33:02,281 INFO === (END PROGRAM) ===
+2023-11-11 16:36:14,452 INFO === (START PROGRAM) ===
+2023-11-11 16:36:14,588 ERROR Exception
+Traceback (most recent call last):
+  File "/home/semyon/адский проект/main.py", line 13, in <module>
+    main()
+  File "/home/semyon/адский проект/main.py", line 8, in main
+    window = ExampleApp()  # Создаём объект класса ExampleApp
+  File "/home/semyon/адский проект/project/__init__.py", line 10, in __init__
+    self.add_project.clicked(self.browse_folder)
+TypeError: native Qt signal is not callable
+2023-11-11 16:36:14,589 INFO === (END PROGRAM) ===
+2023-11-11 16:36:17,368 INFO === (START PROGRAM) ===
+2023-11-11 16:36:17,463 ERROR Exception
+Traceback (most recent call last):
+  File "/home/semyon/адский проект/main.py", line 13, in <module>
+    main()
+  File "/home/semyon/адский проект/main.py", line 8, in main
+    window = ExampleApp()  # Создаём объект класса ExampleApp
+  File "/home/semyon/адский проект/project/__init__.py", line 10, in __init__
+    self.add_project.clicked(self.browse_folder)
+TypeError: native Qt signal is not callable
+2023-11-11 16:36:17,464 INFO === (END PROGRAM) ===
+2023-11-11 16:36:33,417 INFO === (START PROGRAM) ===
+2023-11-11 16:37:08,634 INFO === (END PROGRAM) ===
+2023-11-11 16:53:45,286 INFO === (START PROGRAM) ===
+2023-11-11 16:53:54,882 INFO === (END PROGRAM) ===
+2023-11-11 16:54:06,255 INFO === (START PROGRAM) ===
+2023-11-11 16:54:08,598 INFO === (END PROGRAM) ===
+2023-11-11 16:54:15,750 INFO === (START PROGRAM) ===
+2023-11-11 16:54:22,349 INFO === (END PROGRAM) ===
+2023-11-11 16:54:59,123 INFO === (START PROGRAM) ===
+2023-11-11 16:55:23,587 INFO === (END PROGRAM) ===
+2023-11-11 17:02:08,640 INFO === (START PROGRAM) ===
+2023-11-11 17:02:36,280 INFO === (END PROGRAM) ===
+2023-11-11 17:07:57,296 INFO === (START PROGRAM) ===
+2023-11-11 17:08:22,985 INFO === (END PROGRAM) ===
+2023-11-11 18:40:03,252 INFO === (START PROGRAM) ===
+2023-11-11 18:40:29,213 INFO === (END PROGRAM) ===
+2023-11-11 18:41:20,169 INFO === (START PROGRAM) ===
+2023-11-11 18:41:27,416 INFO === (END PROGRAM) ===
+2023-11-11 18:41:44,757 INFO === (START PROGRAM) ===
+2023-11-11 18:42:43,052 INFO === (END PROGRAM) ===
+2023-11-11 18:42:59,421 INFO === (START PROGRAM) ===
+2023-11-11 18:43:35,643 INFO === (END PROGRAM) ===
+2023-11-11 18:45:37,714 INFO === (START PROGRAM) ===
+2023-11-11 18:45:57,083 INFO === (END PROGRAM) ===
+2023-11-11 18:46:36,201 INFO === (START PROGRAM) ===
+2023-11-11 18:46:39,460 INFO === (END PROGRAM) ===
+2023-11-11 18:47:25,019 INFO === (START PROGRAM) ===
+2023-11-11 18:47:28,210 INFO === (END PROGRAM) ===
+2023-11-11 18:47:42,914 INFO === (START PROGRAM) ===
+2023-11-11 18:47:48,980 INFO === (END PROGRAM) ===
+2023-11-11 18:48:49,315 INFO === (START PROGRAM) ===
+2023-11-11 18:48:54,555 INFO === (END PROGRAM) ===
+2023-11-11 18:49:10,957 INFO === (START PROGRAM) ===
+2023-11-11 18:49:39,802 INFO === (END PROGRAM) ===
+2023-11-11 19:16:09,171 INFO === (START PROGRAM) ===
+2023-11-11 19:16:21,212 INFO === (END PROGRAM) ===
+2023-11-11 19:16:52,613 INFO === (START PROGRAM) ===
+2023-11-11 19:16:58,502 INFO === (END PROGRAM) ===
+2023-11-11 19:17:46,213 INFO === (START PROGRAM) ===
+2023-11-11 19:17:55,286 INFO === (END PROGRAM) ===
+2023-11-11 19:18:38,110 INFO === (START PROGRAM) ===
+2023-11-11 19:18:51,124 INFO === (END PROGRAM) ===
+2023-11-11 19:21:53,066 INFO === (START PROGRAM) ===
+2023-11-11 19:22:11,377 INFO === (END PROGRAM) ===
+2023-11-11 19:22:44,531 INFO === (START PROGRAM) ===
+2023-11-11 19:23:47,792 INFO === (END PROGRAM) ===
+2023-11-11 19:24:03,326 INFO === (START PROGRAM) ===
+2023-11-11 19:28:12,718 INFO === (END PROGRAM) ===
+2023-11-11 19:28:15,143 INFO === (START PROGRAM) ===
+2023-11-11 19:28:52,879 INFO === (END PROGRAM) ===
+2023-11-11 19:34:51,194 INFO === (START PROGRAM) ===
+2023-11-11 19:35:07,110 INFO === (END PROGRAM) ===
+2023-11-11 20:03:23,414 INFO === (START PROGRAM) ===
+2023-11-11 20:03:42,762 INFO === (END PROGRAM) ===
+2023-11-11 20:03:56,290 INFO === (START PROGRAM) ===
+2023-11-11 20:04:11,295 INFO === (END PROGRAM) ===
+2023-11-11 20:07:27,001 INFO === (START PROGRAM) ===
+2023-11-11 20:07:41,251 INFO === (END PROGRAM) ===
+2023-11-11 20:07:48,989 INFO === (START PROGRAM) ===
+2023-11-11 20:07:53,376 INFO === (END PROGRAM) ===
+2023-11-11 20:10:29,439 INFO === (START PROGRAM) ===
+2023-11-11 20:11:03,820 INFO === (END PROGRAM) ===
+2023-11-11 20:11:28,098 INFO === (START PROGRAM) ===
+2023-11-11 20:11:35,804 INFO === (END PROGRAM) ===
+2023-11-11 20:12:17,533 INFO === (START PROGRAM) ===
+2023-11-11 20:12:23,843 INFO === (END PROGRAM) ===
+2023-11-11 20:12:41,708 INFO === (START PROGRAM) ===
+2023-11-11 20:12:50,741 INFO === (END PROGRAM) ===
+2023-11-11 20:20:24,587 INFO === (START PROGRAM) ===
+2023-11-11 20:20:40,635 INFO === (END PROGRAM) ===
+2023-11-11 20:21:43,587 INFO === (START PROGRAM) ===
+2023-11-11 20:22:20,771 INFO === (END PROGRAM) ===
+2023-11-11 20:23:41,492 INFO === (START PROGRAM) ===
+2023-11-11 20:23:41,642 ERROR Exception
+Traceback (most recent call last):
+  File "/home/semyon/адский проект/main.py", line 13, in <module>
+    main()
+  File "/home/semyon/адский проект/main.py", line 8, in main
+    window = ExampleApp()  # Создаём объект класса ExampleApp
+  File "/home/semyon/адский проект/project/__init__.py", line 17, in __init__
+    self.list_programs.itemClicked.connect(self.select_program)
+AttributeError: 'ExampleApp' object has no attribute 'list_programs'
+2023-11-11 20:23:41,643 INFO === (END PROGRAM) ===
+2023-11-11 20:27:16,365 INFO === (START PROGRAM) ===
+2023-11-11 20:27:29,262 INFO === (END PROGRAM) ===
+2023-11-11 20:28:10,720 INFO === (START PROGRAM) ===
