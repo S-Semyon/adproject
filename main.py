@@ -3,7 +3,8 @@ from project.logging import logger
 
 try:
     UserFlow()
-except:
-    pass
+except Exception as e:
+    logger.error("Exception", exc_info=True)
+    raise e
 finally:
     logger.info("=== (END PROGRAM) ===")
