@@ -181,7 +181,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "Создание сценария"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "UserFlow - Создание сценария"))
         self.label_2.setText(_translate("MainWindow", "Готовые сценарии"))
         self.create_script.setText(_translate("MainWindow", "Создать сценарий"))
         self.del_script.setText(_translate("MainWindow", "Удалить сценарий"))
