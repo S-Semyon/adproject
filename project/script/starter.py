@@ -8,4 +8,4 @@ async def start_programs(programs: list[tuple[str, str]], logger) -> None:
     workers = []
     for program in programs:
         workers.append(worker(*program, logger=logger))
-    await asyncio.gather(workers) # type: ignore
+    await asyncio.gather(*workers) # type: ignore

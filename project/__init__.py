@@ -1,6 +1,7 @@
-import select
+import sys
 from PyQt5 import QtWidgets, QtCore
 from ui import edit_scripts
+from .autorun import Ui_MainWindow
 
 class ExampleApp(QtWidgets.QMainWindow, edit_scripts.Ui_MainWindow):
     def __init__(self):
@@ -87,7 +88,6 @@ class ExampleApp(QtWidgets.QMainWindow, edit_scripts.Ui_MainWindow):
             self.list_project.clear()
             self.list_project.addItems(self.programs[selected_item])
 
-
 class UserFlow:
     from .logging import logger
     logger.info("=== (START PROGRAM) ===")
@@ -96,5 +96,16 @@ class UserFlow:
         self.settings = Settings("settings.json", logger=self.logger)
         self.logger.info("Иницилизация [CLASS] UserFlow")
 
-    def start(self, *args, **kwargs) -> None:
-        pass
+    def start_edit_script(self) -> None:
+        app = QtWidgets.QApplication(sys.argv)
+        window = ExampleApp()
+        window.show()
+        sys.exit(app.exec_())
+
+    def starts_script(self) -> None:
+        app = QtWidgets.QApplication(sys.argv)
+        MainWindow = QtWidgets.QMainWindow()
+        ui = Ui_MainWindow(logger=self.logger)
+        ui.setupUi(MainWindow)
+        MainWindow.show()
+        sys.exit(app.exec_())

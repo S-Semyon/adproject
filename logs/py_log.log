@@ -167,3 +167,37 @@ AttributeError: 'ExampleApp' object has no attribute 'list_programs'
 2023-11-11 20:27:16,365 INFO === (START PROGRAM) ===
 2023-11-11 20:27:29,262 INFO === (END PROGRAM) ===
 2023-11-11 20:28:10,720 INFO === (START PROGRAM) ===
+2023-11-12 10:35:05,055 INFO === (END PROGRAM) ===
+2023-11-12 10:44:22,310 INFO === (START PROGRAM) ===
+2023-11-12 10:44:22,418 ERROR Exception
+Traceback (most recent call last):
+  File "/home/semyon/адский проект/main.py", line 21, in <module>
+    main2()
+  File "/home/semyon/адский проект/main.py", line 16, in main2
+    ui = Ui_MainWindow(logger=logger)
+  File "/home/semyon/адский проект/project/autorun/__init__.py", line 14, in __init__
+    self.setupUi(self)
+  File "/home/semyon/адский проект/project/autorun/__init__.py", line 18, in setupUi
+    MainWindow.setObjectName("MainWindow")
+AttributeError: 'Ui_MainWindow' object has no attribute 'setObjectName'
+2023-11-12 10:44:22,419 INFO === (END PROGRAM) ===
+2023-11-12 10:45:20,151 INFO === (START PROGRAM) ===
+2023-11-12 10:45:25,565 INFO === (END PROGRAM) ===
+2023-11-12 10:48:14,432 INFO === (START PROGRAM) ===
+2023-11-12 10:48:23,803 INFO === (END PROGRAM) ===
+2023-11-12 10:48:55,166 INFO === (START PROGRAM) ===
+2023-11-12 10:48:56,308 INFO CompletedProcess(args=['C:\\Program Files\\JetBrains\\PyCharm Community Edition 2023.2.1\\bin\\pycharm64.exe', 'D:\\Python\\Pycharm_Projects\\pyqt5'], returncode=127)
+2023-11-12 10:49:00,371 INFO CompletedProcess(args=['C:\\Program Files (x86)\\Steam\\steam.exe', ''], returncode=2)
+2023-11-12 10:49:02,945 INFO === (END PROGRAM) ===
+2023-11-12 10:54:58,818 INFO === (START PROGRAM) ===
+2023-11-12 10:54:58,823 INFO Иницилизация [CLASS] UserFlow
+2023-11-12 10:55:00,745 INFO === (END PROGRAM) ===
+2023-11-12 10:55:16,383 INFO === (START PROGRAM) ===
+2023-11-12 10:55:16,387 INFO Иницилизация [CLASS] UserFlow
+2023-11-12 10:55:18,064 INFO === (END PROGRAM) ===
+2023-11-12 10:55:26,072 INFO === (START PROGRAM) ===
+2023-11-12 10:55:26,077 INFO Иницилизация [CLASS] UserFlow
+2023-11-12 10:55:28,360 INFO === (END PROGRAM) ===
+2023-11-12 10:59:02,473 INFO === (START PROGRAM) ===
+2023-11-12 10:59:02,477 INFO Иницилизация [CLASS] UserFlow
+2023-11-12 10:59:04,240 INFO === (END PROGRAM) ===
