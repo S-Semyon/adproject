@@ -201,3 +201,12 @@ AttributeError: 'Ui_MainWindow' object has no attribute 'setObjectName'
 2023-11-12 10:59:02,473 INFO === (START PROGRAM) ===
 2023-11-12 10:59:02,477 INFO Иницилизация [CLASS] UserFlow
 2023-11-12 10:59:04,240 INFO === (END PROGRAM) ===
+2023-11-12 11:22:49,989 INFO === (START PROGRAM) ===
+2023-11-12 11:22:49,990 INFO Иницилизация [CLASS] UserFlow
+2023-11-12 11:22:51,152 INFO CompletedProcess(args=['C:\\Program Files\\JetBrains\\PyCharm Community Edition 2023.2.1\\bin\\pycharm64.exe', 'D:\\Python\\Pycharm_Projects\\pyqt5'], returncode=127)
+2023-11-12 11:22:58,437 INFO === (END PROGRAM) ===
+2023-11-12 11:23:18,225 INFO === (START PROGRAM) ===
+2023-11-12 11:23:18,225 INFO Иницилизация [CLASS] UserFlow
+2023-11-12 11:23:19,726 INFO CompletedProcess(args=['C:\\Program Files\\JetBrains\\PyCharm Community Edition 2023.2.1\\bin\\pycharm64.exe', 'D:\\Python\\Pycharm_Projects\\pyqt5'], returncode=127)
+2023-11-12 11:23:22,925 INFO CompletedProcess(args=['C:\\Program Files (x86)\\Steam\\steam.exe', ''], returncode=2)
+2023-11-12 11:23:33,055 INFO === (END PROGRAM) ===
