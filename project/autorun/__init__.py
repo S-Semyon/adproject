@@ -1,6 +1,7 @@
 from PyQt5 import QtCore, QtWidgets
 import asyncio
 from ..sys_control.timer import Timer, Date
+from threading import Thread
 import os
 
 loop = asyncio.get_event_loop()
@@ -130,7 +131,8 @@ class Ui_MainWindow(object):
     def start_timer(self) -> None:
         t1 = Date('0-0-0 00:00:10')
         timer = Timer()
-        timer.start_timer(t1)
+        th = Thread(target=timer.start_timer, args=(t1,))
+        th.start()
 
 
     def ex(self):
