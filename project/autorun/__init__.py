@@ -1,10 +1,7 @@
-from PyQt5 import QtCore, QtGui, QtWidgets
-
-import pathlib
-from pathlib import Path
-import os
-
+from PyQt5 import QtCore, QtWidgets
 import asyncio
+from ..sys_control.timer import Timer, Date
+import os
 
 loop = asyncio.get_event_loop()
 
@@ -130,10 +127,17 @@ class Ui_MainWindow(object):
         self.gaming.clicked.connect(self.game)
         self.docs.clicked.connect(self.doc)
 
+    def start_timer(self) -> None:
+        t1 = Date('0-0-0 00:00:10')
+        timer = Timer()
+        timer.start_timer(t1)
+
+
     def ex(self):
         sys.exit(0)
 
     def prog(self):
+        self.start_timer()
         prog = 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2023.2.1\\bin\\pycharm64.exe'
         f = ""
         if self.prog_args.currentText() == 'pyqt5':
@@ -150,6 +154,7 @@ class Ui_MainWindow(object):
             raise e
 
     def doc(self):
+        self.start_timer()
         f = ""
         if self.docs_args.currentText() == 'document':
             f = r'C:\Users\ivlev\\OneDrive\Документы\document.docx'
@@ -161,6 +166,7 @@ class Ui_MainWindow(object):
             print('Файл не найден')
 
     def game(self):
+        self.start_timer()
         f = r"C:\Program Files (x86)\Steam\steam.exe"
         from ..script.starter import start_programs
         loop.run_until_complete(start_programs([(f, "")], logger=self.logger))
